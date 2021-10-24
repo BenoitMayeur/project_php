@@ -1,0 +1,33 @@
+/*********************************************************
+// CSS ajouté dans le cadre du projet
+*/
+
+.title_product{
+    font-weight: bold;
+}
+
+.div_product_summary{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+.div_list_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 50px;
+}
+
+.div_list_images > img {
+    width: 100%;
+}
+
+.important_message{
+    font-weight: bold;
+}
+
+.link_pagination{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
